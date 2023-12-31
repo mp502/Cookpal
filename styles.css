@@ -1,0 +1,437 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.ram{
+    margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#navbar
+{
+    display: flex;
+    justify-content: space-between;
+   
+    align-items: center;
+    border-bottom: 1px solid gray;
+    box-shadow: 2px 3px 5px gray;
+    padding: 30px;
+    padding-bottom: 20px;
+}
+
+#navbar>.part2{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 100px;
+}
+
+.part2>ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.part2>ul>li
+{
+   list-style-type: none;
+}
+.part2>ul>li>a
+{
+   text-decoration: none;
+   color: black;
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.profile>h1
+{
+    margin-left: 0;
+    border: 1px solid black;
+    width: 20px;  
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50%;
+}
+
+
+
+/*Hero Section*/
+
+#hero
+{
+    background-image: url('./hero.svg');
+    height: fit-content;
+    background-repeat: no-repeat;
+    margin: 20px;
+    height: 375px;
+    margin-top: 30px; 
+    color: white;  
+}
+
+#hero>.hero-group
+{
+
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+   
+}
+
+
+#hero>.hero-group>h3
+{
+   
+color: #DC582A;
+font-family: Poppins;
+font-size: 24px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+#hero>.hero-group>h1
+{
+color: #FFFFFF;
+font-family: Poppins;
+font-size: 40px;
+font-weight: 700;
+line-height: 51px;
+letter-spacing: 0em;
+text-align: left;
+text-wrap: wrap;
+width: 400px;
+
+}
+
+#hero>.hero-group>h4
+{
+    color: #FFFFFF;
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+
+/*search Bar*/
+
+.display
+{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.search-bar
+{
+   padding: 5px;
+    margin-top: 30px;
+    background-color: rgb(243, 243, 243);
+}
+
+
+
+.input-form>.display>input
+{
+    border: none;
+    outline: none;
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+}
+
+.input-form button
+{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+.category>button
+{
+    padding: 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    gap: 20px;
+    color: white;
+}
+
+.category>button>span{
+    margin-right: 10px;
+}
+
+.category>button:first-child{
+    background-color: #EAAA00;
+
+}
+
+
+.category>button:nth-child(2){
+    background-color: #C4D600;
+}
+
+.category>button:nth-child(3){
+    background-color: #DC582A;
+}
+
+/*  Container......> */
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+}
+
+.filter-title
+{
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 20px;
+
+
+}
+
+.rating-title{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+
+/*Cards-> <------->*/
+.cards
+{
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+   background-color: rgba(218, 218, 218, 0.425);
+}
+
+.card
+{
+    width: fit-content;
+    margin: 50px;
+}
+
+.card img
+{
+    border-radius: 20px;
+}
+
+
+#footer>.stuff{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+
+#footer p
+{
+max-width: 400px;
+text-align: justify;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: justified;
+
+}
+
+
+.table>table
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.table tbody
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+tr
+{
+    display: flex;
+    gap: 30px;
+   padding-left: 20px;
+}
+
+
+.table>table
+{
+    font-size: 20px;
+}
+
+.social-media{
+    display: flex;
+    gap: 30px;
+}
+
+.social-media>div{
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#footer{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(206, 198, 198);
+    padding: 30px;
+}
+
+ul a :active{
+    background-color: green;
+}
+
+/*media Queries*/
+@media screen and (max-width:768px)
+{
+    #navbar>.part2{
+        display: none;
+    }
+
+    #bar
+    {
+        display: flex !important;
+    }
+
+    #hero
+    {
+       display: none;
+    }
+
+    .category>button
+    {
+        padding: 10px;
+        margin: 5px;
+    }
+
+    #container{
+        grid-template-columns: 100%;
+    }
+
+    .rating
+    {
+       
+    }
+
+    .rating>.options
+    {
+        display: flex;
+        gap: 10px;
+        padding-left: 20px;
+        margin-bottom: 30px;
+    }
+
+    .display{
+        width: 500px !important;
+    }
+
+    .input-form >.search-item
+    {
+        width: 250x;
+    }
+
+
+    /*card*/
+    .card
+    {        
+        margin: 15px;
+        font-size: small;
+        margin-right: 10px;
+    }
+
+    .card img
+    {
+        height: 100px;
+        width: 150px;
+    }
+
+    #footer .table{
+
+        display: none;
+    }
+
+    .stuff div:last-child{
+        display: none;
+    }
+
+    .social-media{
+        display: none;
+    }
+
+    .cookpal-desc>p
+    {
+        width: auto;
+        text-wrap: wrap;
+    }
+}
+
+.popup
+{
+    position: fixed;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;   
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+
+.profile img
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.popup  a
+{
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+}
+
+.popup ul
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
